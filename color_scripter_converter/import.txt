@@ -1,0 +1,132 @@
+
+import Loop_Des_01 from './img/loop_des_01.png';
+import Loop_Des_02 from './img/loop_des_02.png';
+import Loop_Des_03 from './img/loop_des_03.png';
+
+import While_Des_Scratch_01 from './img/while_des_scratch_01.PNG'
+import While_Des_Scratch_02 from './img/while_des_scratch_02.PNG'
+
+import While_Des_Python_01 from './img/while_des_python_01.png'
+import While_Des_Python_02 from './img/while_des_python_02.png'
+import While_Des_Python_02_run from './img/while_des_python_02_run.png'
+import While_01 from './img/while_01.PNG'
+import While_02 from './img/while_02.PNG'
+import While_03 from './img/while_03.PNG'
+import While_INF_Loop_01 from './img/while_inf_loop_01.PNG'
+import While_INF_Loop_02 from './img/while_inf_loop_02.PNG'
+import While_INF_Loop_03 from './img/while_inf_loop_03.PNG'
+import While_Break_01 from './img/while_break_01.png'
+import While_Break_02_1 from './img/while_break_02_1.png'
+import While_Break_02_2 from './img/while_break_02_2.PNG'
+import While_Break_03 from './img/while_break_03.png'
+import While_Break_04 from './img/while_break_04.png'
+import While_Break_05 from './img/while_break_05.png'
+import While_Break_06 from './img/while_break_06.PNG'
+import While_Break_07 from './img/while_break_07.PNG'
+
+import While_Continue_01 from './img/while_continue_01.png'
+import While_Continue_02_1 from './img/while_continue_02_1.png'
+import While_Continue_02_2 from './img/while_continue_02_2.png'
+import While_Continue_03 from './img/while_continue_03.png'
+import While_Continue_04 from './img/while_continue_04.png'
+import While_Continue_05 from './img/while_continue_05.png'
+import While_Continue_06 from './img/while_continue_06.png'
+
+// import Condition_If_01 from './img/condition_if_01.PNG';
+// import Condition_Img_01 from './img/condition_img_1.jpg';
+// import Condition_Img_02 from './img/condition_img_2.jpg';
+// import Condition_Img_03 from './img/condition_img_3.jpg';
+
+// import Condition_If_Else_01 from './img/condition_if_else_01.PNG'
+// import Condition_If_Else_02 from './img/condition_if_else_02.PNG'
+
+// import Condition_If_Scratch from './img/condition_if_scratch.png';
+// import Condition_If_Python from './img/condition_if_python.png';
+// import Condition_If_Else_Scratch from './img/condition_if_else_scratch.png';
+// import Condition_If_Else_Python from './img/condition_if_else_python.png';
+
+// import Condition_If_Elif_Else_Python from './img/condition_if_elif_else_python.png';
+// import Condition_If_Elif_Else_Scratch from './img/condition_if_elif_else_scratch.png';
+
+// import Condition_If_Elif_Else_01 from './img/condition_if_elif_else_01.PNG'
+// import Condition_If_Elif_Else_02 from './img/condition_if_elif_else_02.PNG'
+
+// import Condition_Img_15 from './img/condition_15.png';
+// import Condition_Img_16 from './img/condition_16.png';
+// import Condition_Img_17 from './img/condition_17.png';
+// import Condition_Img_18 from './img/condition_18.png';
+// import Condition_Img_19 from './img/condition_19.png';
+// import Condition_Img_20 from './img/condition_20.png';
+// import Condition_Img_21 from './img/condition_21.png';
+
+// import Condition_Img_24 from './fimg/condition_24.png';
+// import Condition_Img_25 from './img/condition_25.png';
+// import Condition_Img_26 from './img/condition_26.png';
+// import Condition_Img_27 from './img/condition_27.png';
+// import Condition_Img_28 from './img/condition_28.png';
+
+// import Condiiton_Nested_If_01 from './img/condition_nested_if_01.PNG'
+// import Condiiton_Nested_If_Img from './img/condition_nested_if_img.png';
+
+
+// import Condiiton_Nested_If_Elif_Else_01 from './img/condition_nested_if_elif_else_01.png';
+// import Condiiton_Nested_If_Elif_Else_Img from './img/condition_nested_if_elif_else_img.png';
+
+
+// import Condiiton_Nested_If_Else_01 from './img/condition_nested_if_else_01.png';
+// import Condiiton_Nested_If_Else_Img from './img/condition_nested_if_else_img.png';
+
+
+// import Condition_Img_30 from './img/condition_30.png';
+// import Condition_Img_31 from './img/condition_31.png';
+// import Condition_Img_32 from './img/condition_32.png';
+
+import Practice_Des_01 from './img/practice_1.png';
+import Practice_Res_01_1 from './img/practice_1_res_1.png';
+import Practice_Res_01_2 from './img/practice_1_res_2.png';
+import Practice_Res_01_3 from './img/practice_1_res_3.png';
+import Practice_Res_02 from './img/practice_2_res.png';
+import Practice_Res_03_1 from './img/practice_3_res_1.png';
+import Practice_Res_03_2 from './img/practice_3_res_2.png';
+import Practice_Res_04_1 from './img/practice_4_res_1.png';
+import Practice_Res_04_2 from './img/practice_4_res_2.png';
+import Practice_Res_05_1 from './img/practice_5_res_1.png';
+import Practice_Res_05_2 from './img/practice_5_res_2.png';
+import Practice_Res_06_1 from './img/practice_6_res_1.PNG';
+import Practice_Res_06_2 from './img/practice_6_res_2.PNG';
+import Practice_Res_07_1 from './img/practice_7_res_1.PNG';
+import Practice_Res_07_2 from './img/practice_7_res_2.PNG';
+import Practice_Res_07_3 from './img/practice_7_res_3.PNG';
+import Practice_Res_08_1 from './img/practice_8_res_1.PNG';
+import Practice_Res_08_2 from './img/practice_8_res_2.PNG';
+import Practice_Res_09_1 from './img/practice_9_res_1.PNG';
+import Practice_Res_09_2 from './img/practice_9_res_2.PNG';
+import Practice_Res_10_1 from './img/practice_10_res_1.PNG';
+import Practice_Res_10_2 from './img/practice_10_res_2.PNG';
+import Practice_Res_10_3 from './img/practice_10_res_3.PNG';
+import Challenge_Img_01 from './img/leapyear.png';
+import Challenge_Cond_01 from './img/leapyear_condition.png';
+import Challenge_Res_01_1 from './img/challenge_1_res_1.PNG'
+import Challenge_Res_01_2 from './img/challenge_1_res_2.PNG'
+import Challenge_Res_02_1 from './img/challenge_2_res_1.PNG'
+import Challenge_Res_02_2 from './img/challenge_2_res_2.PNG'
+import Challenge_Res_03_1 from './img/challenge_3_res_1.PNG'
+import Challenge_Res_03_2 from './img/challenge_3_res_2.PNG'
+import Challenge_Res_03_3 from './img/challenge_3_res_3.PNG'
+import Challenge_Res_03_4 from './img/challenge_3_res_4.PNG'
+import Challenge_Res_04_1 from './img/challenge_4_res_1.PNG'
+import Challenge_Res_04_2 from './img/challenge_4_res_2.PNG'
+import Challenge_Res_04_3 from './img/challenge_4_res_3.PNG'
+import Challenge_Res_04_4 from './img/challenge_4_res_4.PNG'
+import Challenge_Res_04_5 from './img/challenge_4_res_5.PNG'
+import Challenge_Img_05 from './img/challenge_5.png';
+import Challenge_Res_05_1 from './img/challenge_5_res_1.png'
+import Challenge_Res_05_2 from './img/challenge_5_res_2.png'
+import Challenge_Res_05_3 from './img/challenge_5_res_3.png'
+import Challenge_Img_06_1 from './img/challenge_6_img_1.png';
+import Challenge_Img_06_2 from './img/challenge_6_img_2.png';
+import Challenge_Res_06_1 from './img/challenge_6_res_1.png';
+import Challenge_Res_06_2 from './img/challenge_6_res_2.png';
+import Challenge_Res_06_3 from './img/challenge_6_res_3.png';
+import NoImage from './img/noimage.png';
+import NoImageSmall from './img/noimage_small.png';
