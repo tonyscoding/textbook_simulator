@@ -1,0 +1,362 @@
+{
+	"textbook_title": "데이터 자료형",
+	"textbook_subtitle": {
+		"stage": "Pioneer",
+		"language": "Python",
+		"level": "1"
+	},
+	"textbook_summary": {
+		"summary_image_src": "",
+		"summary_text": ""
+	},
+	"textbook_contents": [
+		{
+			"step_title": "데이터 자료형",
+			"step_no": 0,
+			"step_items": [
+				{
+					"title": "자료형태",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							
+							"type": "desc",
+							"description": "이번 시간에는 **데이터와 변수**의 정의와 **문자형, 숫자형 변수 생성 방법**을 알아보도록 하겠습니다."
+						},
+						{
+							"type": "desc",
+							"description": "컴퓨터에 사진, 영상, 글 등의 다양한 모양으로 기록하는 방법이 있듯이 코딩에서도 여러가지의 형태로 데이터를 저장할 수 있습니다. <br/>형태의 종류로는 ①숫자형 ②문자형 ③불(bool) ④리스트 ⑤딕셔너리 등이 있습니다."
+						},
+						{
+							"type": "image",
+							"name": "",
+							"src": "python_lv1_1_datatypes/Datatype.png"
+						}
+					]
+				}
+			]
+		},
+		{
+			"step_title": "자료형 변수",
+			"step_no": 1,
+			"step_items": [
+				{
+					"title": "변수",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "연필을 보관하기 위해 필통을 사용하고, 피자를 먹기 위해 그릇에 담는 것처럼 데이터도 데이터를 담을 수 있는 공간이 필요합니다."
+						},
+						{
+							"type": "desc",
+							"description": "사진이나 영상을 컴퓨터에 저장하듯이 코딩에서는 데이터를 <mark>**변수라는 가상의 공간**</mark>에 저장합니다."
+						},
+						{
+							"type": "image",
+							"name": "",
+							"src": "python_lv1_1_datatypes/Variables_1.png"
+						}
+					]
+				}
+			]
+		},
+		{
+			"step_title": "변수 생성 및 변경",
+			"step_no": 2,
+			"step_items": [
+				{
+					"title": "변수 생성",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "변수를 만드는 방법은 이와 같습니다. <br/><mark>**변수이름 = 데이터**</mark>"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n나이 = 12"
+						},
+						{
+							"type": "desc",
+							"description": "'나이'라는 변수 안에 '12'라는 데이터를 넣은 것이 위의 코드입니다.<br/> 이런 식으로 문자, 숫자, 리스트 등의 데이터를 변수안에 저장 할 수 있습니다."
+						},
+						{
+							"type": "desc",
+							"description": "📢**주의** <br/>수학에서 '='은 '똑같다'라는 의미이지만, 코딩에서 '='은 '오른쪽 값을 왼쪽 변수에 저장한다'라는 의미입니다. <br/>따라서 항상 '='의 왼쪽에는 변수를, 오른쪽에는 데이터 값을 써주세요."
+						}
+					]
+				},
+				{
+
+					"title": "문자 변수 만들기",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "문자 변수를 만들 때의 포인트는 데이터에 큰 따옴표(<mark>**\"  \"**</mark>)를 사용하는 것입니다. <br/> 예를 들어 **Tony**라는 이름을 담은 pioneer변수를 만들어봅시다"
+						},
+						{
+							"type": "desc",
+							"description": "코드 :"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \npioneer = \"Tony\" \nprint(pioneer)\n ~~~ "
+						},
+						{
+							"type": "desc",
+							"description": "출력 :"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n Tony\n ~~~ "
+						},
+						{
+							"type": "desc",
+							"description": "💬**코드해석**"
+						},
+						{	"type": "image",
+							"name": "",
+							"src": "python_lv1_1_datatypes/Variables_2.png"
+						}
+					]
+				},
+				{
+					"title": "숫자 변수 만들기",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "이번에는 숫자를 저장해보겠습니다. 숫자는 크게 정수형, 실수형 두가지로 나뉩니다.<br/>모험가님의 나이와 발길이를 저장하는 변수 2개를 만들어 보겠습니다."
+						},
+						{
+							"type": "desc",
+							"description": "코드 :"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \nage = 40\nfeet = 273.3 \nprint(age)\nprint(feet)\n ~~~ "
+						},
+						{
+							"type": "desc",
+							"description": "출력 :"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n40\n273.0\n ~~~ "
+						}
+					]
+				},
+				{
+					"title": "변수 변경",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "변수에 저장되어 있는 데이터는 변경이 가능합니다."
+						},
+						{
+							"type": "desc",
+							"description": "코드 :"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \npioneer = \"Tony\"\nprint(pioneer)\npioneer = \"Jeffrey\"\nprint(pioneer)\n ~~~ "
+						},
+						{
+							"type": "desc",
+							"description": "출력 :"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \nTony\nJeffrey\n ~~~ "
+						},
+						{
+							"type": "desc",
+							"description": "Tony를 Jeffery로 변경하고 print 하면 Jeffrey로 변경된 것을 순차적으로 확인할 수 있습니다."
+						}
+					]
+				},
+				{
+					"title": "변수 만들때 팁",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "✔️ 코딩 중 에러를 최소화 하기 위해서는 변수이름을 영어로 만들어야 합니다."
+						},
+						{
+							"type": "desc",
+							"description": "✔️ 변수의 이름은 의미 있는 영어단어로 만들어야 기억하기 쉽습니다. 예를 들어 나이는 age, 날짜는 date."
+						}
+					]
+				},
+				{
+					"title": "출력",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "여러개의 데이터를 동시에 출력 할 수 있습니다. <br/>예를 들어서 출력한 내용이 이름인걸 알리고 싶을 때 아래와 같이 입력할 수 있습니다.\n"
+						},
+						{
+							"type": "desc",
+							"description": "코드 :"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \npioneer = \"Tony\"\nprint(\"Name : \", pioneer)\n ~~~  "
+						},
+						{
+							"type": "desc",
+							"description": "출력 :"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \nName: Tony\n ~~~  "
+						},
+						{
+							"type": "desc",
+							"description": "위와 같이 \"Name : \" 과 pioneer 변수 사이에 쉼표(,)를 삽입하면 동시에 출력이 가능합니다."
+						}
+					]
+				}
+			]
+		},
+		{
+			"step_title": "연습 문제",
+			"step_no": 3,
+			"step_items": [
+				{
+					"title": "1번 문제",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "이름과 나이 변수를 만들고 모험가님의 이름과 나이를 저장하고 출력해주세요.<br/>\n**(연습문제에 나오는 변수명은 예제와 똑같이 만들어주세요.)**\n"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n출력예제: \n Name: Tony \n Age: 17 \n ~~~"
+						}
+					]
+				},
+				{
+					"title": "2번 문제 ",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "모험가님께서 현재 배우고 있는 코딩언어를 변수에 저장해주세요.<br/>\n**(연습문제에 나오는 변수명은 예제와 똑같이 만들어주세요.)**"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n출력예제: \n Language: Python\n ~~~ "
+						}
+					]
+				},
+				{
+					"title": "3번 문제 ",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "학교와 장래 희망 변수를 만들어 모험가님께서 현재 다니고 계신 학교와 장래희망을 저장해주세요.<br/>\n**(연습문제에 나오는 변수명은 예제와 똑같이 만들어주세요.)**"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n출력예제:\nSchool: Tony's University\nDream: Astronaut\n ~~~ "
+						}
+					]
+				},
+				{
+					"title": "4번문제",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "취미 변수를 만들어 모험가님의 취미를 저장하고 출력해주세요.<br/>\n**(연습문제에 나오는 변수명은 예제와 똑같이 만들어주세요.)**"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n출력예제: \nHobby: Reading Books\n ~~~ "
+						}
+					]
+				},
+				{
+					"title": "5번 문제 ",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "영화, 책 변수를 만들어 모험가님께서 제일 좋아하는 영화와 책을 저장하고 출력해주세요.<br/>\n**(연습문제에 나오는 변수명은 예제와 똑같이 만들어주세요.)**"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n출력예제:\nMovie: Inception\nBook: Harry Potter\n ~~~ "
+						}
+					]
+				},
+				{
+					"title": "6번 문제",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "PI(𝝿)값을 저장할 변수를 만들고 예제와 같이 저장하고 출력해주세요.<br/>\n**(연습문제에 나오는 변수명은 예제와 똑같이 만들어주세요.)**"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n출력예제:\nPI: 3.14159265\n ~~~ "
+						}
+					]
+				},
+				{
+					"title": "7번 문제",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "알파벳과 숫자를 저장할 변수를 만들고 본인이 좋아하는 알파벳과 숫자를 저장하고 출력해주세요.<br/>\n**(연습문제에 나오는 변수명은 예제와 똑같이 만들어주세요.)**"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n출력예제:\nAlphabet: e\nNumber: 7\n ~~~ "
+						}
+					]
+				},
+				{
+					"title": "8번 문제",
+					"tags": [],
+					"collapse": false,
+					"components": [
+						{
+							"type": "desc",
+							"description": "키 변수를 만들어 모험가님의 키를 저장하고 출력해주세요.<br/>\n**(연습문제에 나오는 변수명은 예제와 똑같이 만들어주세요.)**"
+						},
+						{
+							"type": "code",
+							"code": "~~~python \n출력예제:\nHeight: 183\n ~~~ "
+						}
+					]
+				}
+			]
+		}
+	]
+}

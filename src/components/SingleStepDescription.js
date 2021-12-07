@@ -61,16 +61,18 @@ class SingleStepDescription extends React.Component{
         const step_components = (components.length > 0) ? components.map((comp) => {
             if (comp.type === "image") {
                 count_for_key += 1;
+                var l = comp.src.split('/');
+                console.log(l[l.length-1]);
                 return (
                     <div key={comp.src+count_for_key}>
-                        <img src={require('../textbook/'+comp.src)} alt={comp.name} width="100px" />
+                        <img src={require('../textbook/'+l[l.length-1])} alt={comp.name} width="100px" />
                         <br />
                         <b> {reactHtmlParser(comp.name? comp.name:null)} </b>
                         <br />
                     </div> 
                 );
             } else if (comp.type === "desc") {
-                count_for_key += 1;
+                count_for_key += 1; 
                 return (
                 <div className={"CardDescription"} key={comp.description+count_for_key}>
                     <div>
@@ -88,7 +90,7 @@ class SingleStepDescription extends React.Component{
                         {/* {reactHtmlParser(comp.description)} */}
                     <Markdown 
                         children={comp.description} 
-                        remarkPlugins={[[gfm, {borderWidth: "1px"}]]}
+                        remarkPlugins={[gfm]}
                     />
                 </div>
                 );

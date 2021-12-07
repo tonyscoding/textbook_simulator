@@ -3,12 +3,12 @@ import './App.css';
 import TextbookPage from './components/TextbookPage';
 // import textbookJSON from './textbook/textbookJSON.json';
 // import pygame_bug from './textbook/pygame_bug/pygame_bug.json';
-import python_01 from './textbook/python_01/python_01.json';
+import python_01 from './textbook/numbers.json';
 import './assets/css/TextbookPage.css'
 import fs from 'fs'
 
 let textbook = python_01;
-let textbook_path = './textbook/python_01/python_01.json';
+let textbook_path = './textbook/numbers.json';
 
 const append_description = (text, step_no, idx) => {
 
